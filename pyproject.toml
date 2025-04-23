@@ -1,0 +1,14 @@
+[project]
+name = "fastapi1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.115.12",
+    "loguru>=0.7.3",
+    "pymysql>=1.1.1",
+    "sqlmodel>=0.0.24",
+    "sqlparse>=0.5.3",
+    "uvicorn>=0.34.2",
+]
